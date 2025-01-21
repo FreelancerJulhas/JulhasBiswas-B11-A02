@@ -159,7 +159,7 @@ marquee {
 /* Hero Section End */
 /* curriculum section Start  */
 #curriculum {
-    padding: 3.75rem 0;
+    padding-top: 3.75rem;
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -280,12 +280,13 @@ marquee {
     transition: 0.3s;
 
 }
+
 .left-arrow:hover,
-.right-arrow:hover{
- 
-margin-top: -10px;
-background-color: #111;
-  
+.right-arrow:hover {
+
+    margin-top: -10px;
+    background-color: #111;
+
 }
 
 /* Ourt story section start  */
@@ -668,6 +669,8 @@ background-color: #111;
 
     }
 
+ /
+
     .story-container {
 
         display: grid;
@@ -738,11 +741,13 @@ background-color: #111;
         justify-content: left;
         padding: 40px 0 60px 20px;
     }
-.footer-info{
-    margin: 23px 0 32px 0;
-}
-.menus{
-    margin-bottom: 32px;
-}
+
+    .footer-info {
+        margin: 23px 0 32px 0;
+    }
+
+    .menus {
+        margin-bottom: 32px;
+    }
 
 }

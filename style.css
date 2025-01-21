@@ -277,6 +277,15 @@ marquee {
     padding: 18px 22.5px;
     background-color: #FEA301;
     border-radius: 50%;
+    transition: 0.3s;
+
+}
+.left-arrow:hover,
+.right-arrow:hover{
+ 
+margin-top: -10px;
+background-color: #111;
+  
 }
 
 /* Ourt story section start  */

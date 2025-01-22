@@ -159,7 +159,7 @@ marquee {
 /* Hero Section End */
 /* curriculum section Start  */
 #curriculum {
-    padding-top: 3.75rem;
+   
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -290,14 +290,7 @@ marquee {
 }
 
 /* Ourt story section start  */
-/* .story-container{
-    display: grid;
-    grid-template-areas: 
-    "story-1     story-2     story-3"
-    "story-1     story-4     story-5"
-    ;
-    gap: 10px;
-} */
+
 #stories {
     width: 100vw;
     background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -318,8 +311,6 @@ marquee {
 
 .story {
     display: flex;
-    /* justify-content: start; */
-    /* align-items: center; */
     flex-direction: column;
     border-radius: 16px;
     background: #fff;
@@ -384,7 +375,7 @@ marquee {
 
 
 .story-btn-1 {
-    margin-top: -28px;
+    margin-top: -21px;
     border-radius: 47.93px;
 }
 
@@ -418,7 +409,7 @@ marquee {
 
 #view {
     margin-top: 88px;
-    /* margin-bottom: 60px; */
+    
 }
 
 .view-all {
@@ -669,24 +660,25 @@ marquee {
 
     }
 
- /
-
     .story-container {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        justify-items: center;
+        padding: 0 20px;
+        gap: 20px;
 
     }
 
     .story {
-        width: 173.09px;
-        height: 179.59px;
+
+        width: 100%;
     }
 
     .story-img {
-        width: 173.27px;
-        height: 108.37px;
+
+        width: 100%;
+
     }
 
     .story-btn {
@@ -731,7 +723,10 @@ marquee {
     .story-btn-3 {
         background-color: #FEA301;
     }
-
+    #view {
+        margin-top: 40px;
+        
+    }
     /* Stories Section End  */
     /* Footer Section Start  */
 

@@ -159,7 +159,6 @@ marquee {
 /* Hero Section End */
 /* curriculum section Start  */
 #curriculum {
-   
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -278,19 +277,16 @@ marquee {
     background-color: #FEA301;
     border-radius: 50%;
     transition: 0.3s;
-
 }
 
 .left-arrow:hover,
 .right-arrow:hover {
-
     margin-top: -10px;
     background-color: #111;
-
 }
 
-/* Ourt story section start  */
-
+/* Curriculum Section End  */
+/* Ourt Story Section Start  */
 #stories {
     width: 100vw;
     background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -372,8 +368,6 @@ marquee {
     margin-left: 37.91px;
 }
 
-
-
 .story-btn-1 {
     margin-top: -21px;
     border-radius: 47.93px;
@@ -409,7 +403,6 @@ marquee {
 
 #view {
     margin-top: 88px;
-    
 }
 
 .view-all {
@@ -421,18 +414,16 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .view-all a {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
-
     color: #fff;
-
 }
 
+/* Our Story Section End  */
 /* Footer Section Start  */
 #footer {
     background: #01ACFD;
@@ -445,7 +436,6 @@ marquee {
     display: flex;
     justify-content: space-between;
     align-items: start;
-
 }
 
 .footer-left {
@@ -464,7 +454,6 @@ marquee {
     flex-direction: column;
     justify-content: left;
     gap: 20px;
-
 }
 
 .menu-title {
@@ -476,7 +465,6 @@ marquee {
     justify-content: space-between;
     align-items: center;
     gap: 10.15px;
-
 }
 
 .footer-logo-text {
@@ -501,7 +489,6 @@ marquee {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-
 }
 
 .menus a {
@@ -509,7 +496,6 @@ marquee {
     font-size: 20px;
     font-weight: 500;
     line-height: 25px;
-
     text-align: left;
 }
 
@@ -536,9 +522,7 @@ marquee {
     background-color: #DD4B39;
 }
 
-
-/* Ourt story section end  */
-/* curriculum section End  */
+/* Footer Section End  */
 /* ====================================================================== */
 /* ==================== Small Device Responsive ========================= */
 /* ====================================================================== */
@@ -573,7 +557,7 @@ marquee {
         font-size: 2rem;
     }
 
-    /* Hero banner Start  */
+    /* Hero Banner Start  */
     #hero {
         flex-direction: column-reverse;
         text-align: center;
@@ -657,28 +641,22 @@ marquee {
     #stories {
         width: 100vw;
         background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-
     }
 
     .story-container {
-
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         padding: 0 20px;
         gap: 20px;
-
     }
 
     .story {
-
         width: 100%;
     }
 
     .story-img {
-
         width: 100%;
-
     }
 
     .story-btn {
@@ -723,13 +701,12 @@ marquee {
     .story-btn-3 {
         background-color: #FEA301;
     }
+
     #view {
         margin-top: 40px;
-        
     }
-    /* Stories Section End  */
-    /* Footer Section Start  */
 
+    /* Footer Section Start  */
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -745,4 +722,5 @@ marquee {
         margin-bottom: 32px;
     }
 
+    /* Footer Section End  */
 }
